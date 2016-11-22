@@ -1,0 +1,25 @@
+{
+  "name": "webpack-dev-boilerplate",
+  "version": "1.0.2",
+  "description": "boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server -w --progress --host 0.0.0.0"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "es6",
+    "babel"
+  ],
+  "author": "jason",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
